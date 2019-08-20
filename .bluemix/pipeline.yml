@@ -17,7 +17,7 @@ stages:
     job: Build 
   triggers:
   - type: stage
-jobs:
+  jobs:
   - name: Acceptance Test
     type: builder
     build_type: customimage
